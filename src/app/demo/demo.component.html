@@ -1,0 +1,6 @@
+<input type="text" #myVariable (keyup)="0">
+<button (click)="sayHello(myVariable)">Say Hello</button>
+<p>{{myVariable.value}}</p>
+<!-- here my 'myVariable' is going to store refernce for the input element
+     This can take and pass data to compoment from view template
+-->
